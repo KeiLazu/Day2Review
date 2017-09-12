@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spp.klaz.day2review.Frag1ButtonControl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:id="@+id/keiLinearHButtonHolder"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"
+            android:id="@+id/keiBtnMemo"
+            android:text="Memo"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"
+            android:id="@+id/keiBtnHome"
+            android:text="Home"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"
+            android:id="@+id/keiBtnTime"
+            android:text="Time"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spp.klaz.day2review.MainActivity"
+    >
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/frag2_empty_frag"
+        android:id="@+id/keiFragDisplay"
+        class="com.spp.klaz.day2review.Frag2EmptyFrag"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/keiFragButton" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        tools:layout="@layout/frag1_button_control"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/keiFragButton"
+        class="com.spp.klaz.day2review.Frag1ButtonControl"
+        />
+
+</RelativeLayout>
